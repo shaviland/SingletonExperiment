@@ -1,0 +1,15 @@
+package SingletonTest;
+
+public class SingletonApp {
+
+	public static void main(String[] args) {
+
+	Singleton instance = Singleton.getSingleton();
+	
+	instance.hello();
+	System.out.println(instance.simpleCalculator(7, 6, '*'));
+	System.out.println("Taco cat");
+		
+	}
+
+}

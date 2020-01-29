@@ -1,0 +1,22 @@
+package SingletonTest;
+
+public class SingletonApp {
+
+	public static void main(String[] args) {
+
+	Singleton objA = Singleton.getInstance();
+	Singleton objB = Singleton.getInstance();
+	Singleton objC = Singleton.getInstance();
+	
+//	objA.hello();
+//	objA.simpleCalculator(7, 6, '*');
+//	objA.palindromeChecker("Taco Cat");
+	
+	objA.setData("Fred");
+	System.out.println(objA.getData());
+	System.out.println(objB.getData());
+	System.out.println(objC.getData());
+	objB.setData("Make up something");
+	}
+
+}
