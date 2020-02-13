@@ -23,7 +23,7 @@ public class Singleton {
 		return instance;
 		
 	}
-	public void hello() {
+	public void sayHello() {
 		System.out.println("Hello World!");
 	}
 	
