@@ -1,4 +1,4 @@
-package SingletonTest;
+package com.shaviland.app;
 
 public class SingletonApp {
 
@@ -9,7 +9,6 @@ public class SingletonApp {
 		Singleton objC = Singleton.getInstance();
 
 //		objA.hello();
-//		objA.palindromeChecker("Taco Cat");
 
 		objA.setData("Singletons occupy one location in memory");
 		System.out.println(objA.getData());

@@ -1,4 +1,4 @@
-package SingletonTest;
+package com.shaviland.app;
 
 public class Singleton {
 	
