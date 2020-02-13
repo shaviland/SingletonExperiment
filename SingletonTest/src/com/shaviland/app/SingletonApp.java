@@ -8,7 +8,7 @@ public class SingletonApp {
 		Singleton objB = Singleton.getInstance();
 		Singleton objC = Singleton.getInstance();
 
-		objA.hello();
+//		objA.hello();
 
 		objA.setData("Singletons occupy one location in memory");
 		System.out.println(objA.getData());
