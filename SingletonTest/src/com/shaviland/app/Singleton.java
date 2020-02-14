@@ -28,8 +28,8 @@ public class Singleton {
 	}
 	
 	
-	public boolean palindromeChecker(String incoming) {
-		String stringTest = incoming.toLowerCase().replaceAll("[^a-z]", "");
+	public boolean palindromeChecker(String incomingString) {
+		String stringTest = incomingString.toLowerCase().replaceAll("[^a-z]", "");
 
 		for (int i = 0; i < stringTest.length() / 2; i++) {
 			if (stringTest.charAt(i) != stringTest.charAt(stringTest.length() - 1 - i)) {
